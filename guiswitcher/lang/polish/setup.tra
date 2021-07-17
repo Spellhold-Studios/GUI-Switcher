@@ -1,0 +1,70 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= "Modyfikacja %TP2_FILE_NAME% ma"
+@-1001= "kilka opcjonalnych komponentow.
+Aby zaoszczedzic czas mozesz wybrac co zrobic ze wszystkimi teraz
+zamiast byc pytanym o kazdy osobno.
+"
+@-1002= "Co zrobic ze wszystkimi komponentami, ktore NIE SA jeszcze zainstalowane?
+[I]nstaluj, [S] Pomin, [A] Zapytaj o kazdy? "
+@-1003= "Co zrobic z komponentami, ktore JUZ SA zainstalowane?
+[R]einstaluj, [U] Odinstaluj, [S] Pomin, [A] Zapytaj o kazdy? "
+
+@-1004= "Prosze zrob kopie zapasowa pliku:"
+@-1005= "i poszukaj wsparcia na:"
+
+@-1006= "Instalacja komponentu ["
+@-1007= "]?
+[R]einstaluj, [N]ie zmieniaj, [U] Odinstaluj lub [Q] Wyjdz? "
+@-1008= "]?
+[I]nstaluj, [N]ie instaluj lub [Q] Wyjdz? "
+
+@-1009= "Wprowadz czesc nazwy modulu: "
+
+@-1010= "Reinstalacja ["
+@-1011= "] komponentu "
+@-1012= "Reinstalacja uzywajac jezyka"
+
+@-1013= "Usuwanie poprzedniej instalacji ["
+@-1014= "] najpierw ..."
+@-1015= "USUNIECIE POPRZEDNIEJ WERSJI POWIODLO SIE"
+
+@-1016= "Instalacja"
+@-1017= "BLAD instalacji ["
+@-1018= "], przywracanie do poprzedniego stanu"
+@-1019= "INSTALACJA POWIODLA SIE     "
+@-1020= "Pomijanie"
+@-1021= "Usuwanie ["
+@-1022= "] (komponent #"
+@-1023= ")"
+@-1024= "ODINSTALOWANIE POWIODLO SIE ["
+
+@-1025= "]?
+[R]einstaluj, [N]ie zmieniaj, [U] Odinstaluj, [Q] Wyjdz lub wybierz:"
+@-1026= "]?
+[N]ie, [Q] Wyjdz lub wybierz:"
+@-1027= " (aktualnie zainstalowane)"
+
+@-1028= "Czy chcesz wyswietlic komponenty z ["
+@-1029= "]?
+[Y] Tak, [N]ie? "
+
+@-1030= "]?
+wybierz jedno:"
+@-1031= "]?
+[R]einstaluj, [N]ie zmieniaj, [Q] Wyjdz lub wybierz:"
+@-1032= "NIE ZAINSTALOWANO Z POWODU BLEDOW"
+@-1033= "ZAINSTALOWANO Z OSTRZEZENIAMI    "
+@-1034= "Czy wyswietlic plik readme? [Y] Tak [N]ie"
+@-1035= "Wybrano jezyk"
+
+@-1036= "Pominieto GRUPE ["
+@-1037= "] poniewaz nie spelniono jej wymagan."
+
+@-1038= "[A] Pytaj o kazdy komponent, [S] Pomin wszystkie lub wybierz z predefiniowanych:"
+@-1039= "[A] Pytaj o kazdy komponent, [R]einstaluj obecna konfiguracje, [U] Odinstaluj wszystko, [S] Pomin wszystko lub wybierz z predefiniowanych:"
+
+@100026 = ~Baldur's Gate Trilogy (Elminster z mieczem)~
+@100027 = ~Baldur's Gate Trilogy (Elminster z kosturem)~

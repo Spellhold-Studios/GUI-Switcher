@@ -1,0 +1,62 @@
+BACKUP  ~guiswitcher/backup~
+SUPPORT ~http://www.shsforums.net/forum/399-mega-modifications/~
+VERSION ~v2.0-PI~
+
+LANGUAGE ~English~  ~english~ ~guiswitcher/lang/english/setup.tra~
+LANGUAGE ~cestina~  ~czech~   ~guiswitcher/lang/czech/setup.tra~
+LANGUAGE ~francais~ ~french~  ~guiswitcher/lang/french/setup.tra~
+LANGUAGE ~Deutsch~  ~german~  ~guiswitcher/lang/german/setup.tra~
+LANGUAGE ~italiano~ ~italian~ ~guiswitcher/lang/italian/setup.tra~
+LANGUAGE ~polski~   ~polish~  ~guiswitcher/lang/polish/setup.tra~
+LANGUAGE ~espanol~  ~spanish~ ~guiswitcher/lang/spanish/setup.tra~
+
+BEGIN @100026 LABEL ~KingDiamond-GUISwitcher-BGTsword~
+SUBCOMPONENT ~GUI Switcher~ (MOD_IS_INSTALLED ~bgt.tp2~ ~0~)
+
+ACTION_IF (!FILE_EXISTS ~bgt/bgt_menu/common/start.mos~) BEGIN ABORT ~~ END
+
+COPY ~bgt/bgt_menu/common~       ~override~
+     ~bgt/bgt_menu/startold.mos~ ~override~
+
+BEGIN @100027 LABEL ~KingDiamond-GUISwitcher-BGTstaff~
+SUBCOMPONENT ~GUI Switcher~ (MOD_IS_INSTALLED ~bgt.tp2~ ~0~)
+
+ACTION_IF (!FILE_EXISTS ~bgt/bgt_menu/common/start.mos~) BEGIN ABORT ~~ END
+
+COPY ~bgt/bgt_menu/common~                 ~override~
+     ~bgt/bgt_menu/startold_alternate.mos~ ~override/startold.mos~
+
+BEGIN ~Big Picture~ LABEL ~KingDiamond-GUISwitcher-BP~
+SUBCOMPONENT ~GUI Switcher~ (MOD_IS_INSTALLED ~bp.tp2~ ~0~)
+
+ACTION_IF (!FILE_EXISTS ~bp/gui/start.mos~) BEGIN ABORT ~~ END
+
+COPY ~bp/gui~ ~override~
+
+BEGIN ~Check the Bodies~ LABEL ~KingDiamond-GUISwitcher-CtB~
+SUBCOMPONENT ~GUI Switcher~ (MOD_IS_INSTALLED ~ctb.tp2~ ~0~)
+
+ACTION_IF (!FILE_EXISTS ~ctb/gui/start.mos~) BEGIN ABORT ~~ END
+
+COPY ~ctb/gui~ ~override~
+
+BEGIN ~Region of Terror~ LABEL ~KingDiamond-GUISwitcher-RoT~
+SUBCOMPONENT ~GUI Switcher~ (MOD_IS_INSTALLED ~rot.tp2~ ~0~)
+
+ACTION_IF (!FILE_EXISTS ~roterror/gui/start.mos~) BEGIN ABORT ~~ END
+
+COPY ~roterror/gui~ ~override~
+
+BEGIN ~Shadows over Soubar~ LABEL ~KingDiamond-GUISwitcher-SoS~
+SUBCOMPONENT ~GUI Switcher~ (MOD_IS_INSTALLED ~sos.tp2~ ~0~)
+
+ACTION_IF (!FILE_EXISTS ~sos/gui/start.mos~) BEGIN ABORT ~~ END
+
+COPY ~sos/gui~ ~override~
+
+BEGIN ~The Darkest Day~ LABEL ~KingDiamond-GUISwitcher-TDD~
+SUBCOMPONENT ~GUI Switcher~ (MOD_IS_INSTALLED ~tdd.tp2~ ~0~)
+
+ACTION_IF (!FILE_EXISTS ~tdd/gui/start.mos~) BEGIN ABORT ~~ END
+
+COPY ~tdd/gui~ ~override~

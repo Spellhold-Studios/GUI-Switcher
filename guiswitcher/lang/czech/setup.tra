@@ -1,0 +1,69 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= "Mod %TP2_FILE_NAME% ma"
+@-1001= "ruzne volitelne komponenty.
+K uspore casu s nimi muzete nalozit hromadne, spise nez byt tazan na kazdy zvlast.
+"
+@-1002= "Co s komponenty, ktere JESTE NEJSOU nainstalovany?
+[I] Instalovat, [S] Preskocit je, [A] Zeptat se na kazdy zvlast? "
+@-1003= "Co s komponenty, ktere JSOU nainstalovany?
+[R] Reinstalovat je, [U] Odinstalovat je, [S] Preskocit je, [A] Zeptat se na kazdy zvlast? "
+
+@-1004= "Prosime, poslete soubor "
+@-1005= "na"
+
+@-1006= "Instaluj komponent ["
+@-1007= "]?
+[R] Reinstalovat, [N] Beze zmeny nebo [U] Odinstalovat nebo [Q] Konec? "
+@-1008= "]?
+[I] Instalovat, [N] Neinstalovat nebo [Q] Konec? "
+
+@-1009= "Napiste cast nazvu modulu: "
+
+@-1010= "Preinstalovavam ["
+@-1011= "] komponent "
+@-1012= "Preinstalovavam v jazyce"
+
+@-1013= "Odstranuji starou instalaci ["
+@-1014= "] prvne ..."
+@-1015= "USPESNE ODSTRANENO STARE"
+
+@-1016= "Instaluji"
+@-1017= "Chyba pri instalaci ["
+@-1018= "], vracim se do puvodniho stavu"
+@-1019= "USPESNE NAINSTALOVANO     "
+@-1020= "Preskakuji"
+@-1021= "Odstranuji ["
+@-1022= "] (komponent #"
+@-1023= ")"
+@-1024= "USPESNE ODSTRANEN ["
+
+@-1025= "]?
+[R] Reinstalovat, [N] Beze zmeny, [U] Odinstalovat, [Q] Konec nebo vyber moznost:"
+@-1026= "]?
+[N] Ne, [Q] Konec nebo vyber moznost:"
+@-1027= " (prave nainstalovano)"
+
+@-1028= "Chtete zobrazit komponenty z ["
+@-1029= "]?
+[Y] Ano, [N] Ne? "
+
+@-1030= "]?
+vyberte moznost:"
+@-1031= "]?
+[R] Reinstalovat, [N] Beze zmeny, [Q] Konec nebo vyber moznost:"
+@-1032= "NENAINSTALOVAN KVULI CHYBAM"
+@-1033= "INSTALOVAN S VAROVANIMI    "
+@-1034= "Chcete zobrazit readme? [Y] Ano [N] Ne"
+@-1035= "V jazyce"
+
+@-1036= "Preskakuji SKUPINU ["
+@-1037= "] protoze nesplnuje pozadavky."
+
+@-1038= "[A] Zeptat se na kazdy zvlast, [S] Preskocit vsechny, nebo zvol preddefinovany vyber:"
+@-1039= "[A] Zeptat se na kazdy zvlast, [R] Reinstaluj soucasnou konfiguraci, [U] Odinstaluj vse, [S] Preskoc vse, nebo zvol preddefinovany vyber:"
+
+@100026 = ~Baldur's Gate Trilogy (Elminster drzici mec)~
+@100027 = ~Baldur's Gate Trilogy (Elminster drzici hul)~
