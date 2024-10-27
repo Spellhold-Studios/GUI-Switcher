@@ -1,0 +1,21 @@
+# WeiDU Mod Packager by Argent77
+# See: https://github.com/InfinityTools/WeiduModPackager
+
+name: 'WeiDU Mod Packager (iemod; use git release tag name as suffix)'
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  call_workflow:
+
+    permissions:
+      contents: write
+
+    uses: InfinityTools/WeiduModPackagerLibrary/.github/workflows/WeiduModPackagerLibrary.yml@master
+    with:
+      type: iemod
+      suffix: ${{ github.event.release.tag_name }}
+      naming: tp2
